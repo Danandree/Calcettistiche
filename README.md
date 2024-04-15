@@ -33,8 +33,8 @@ Dopo aver installato le dipendenze e creato il file ".env", eseguire il file "se
 Infine spostarsi nella cartella frontend ed eseguire il comando "ng serve" per far partire l'applicazione lato client.<br>
 
 ## Test
-L'applicazione si può provare al seguente indirizzo: <br>
-Le richieste al backend si possono fare all'indirizzo <br>
+L'applicazione si può provare al seguente indirizzo: [https://calcettistiche.web.app](https://calcettistiche.web.app) <br>
+Le richieste al backend si possono fare all'indirizzo: [https://calcettistiche.oa.r.appspot.com](https://calcettistiche.oa.r.appspot.com) <br>
 
 ### Note
 Note più dettagliate all'interno delle rispettive cartelle
