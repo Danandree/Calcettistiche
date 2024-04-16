@@ -20,7 +20,7 @@ Per eseguire l'applicazione sul sistema devono essere presenti:
 
 Scaricare l'applicazione e installare le dipendenze con "npm install" sia per la cartella frontend che per quella backend.<br>
 Dopo aver scaricato le dipendenze e configurato l'applicazione (vedi sotto) portarsi nelle ripettive cartelle e far partire le singole parti dell'applicazione.<br>
-Backend: lanicare il file "server.js"<br>
+Backend: lanciare il file "server.js"<br>
 Frontend: portarsi nella cartella forntend e lanciare l'applicazione col comando "ng serve".<br>
 
 ## Configurazione
