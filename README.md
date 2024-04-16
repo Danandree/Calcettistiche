@@ -1,4 +1,4 @@
-# Calcettistiche (sviluppo)
+# Calcettistiche
 Calcettistiche, l'app per un calcetto con le statistiche!<br>
 Chi è il più forte tra i tuoi amici? Chi si impegna di più? Chi è il vero bomber?<br>
 Niente più zuffe su si chi sia il migliore, adesso lo dicono le statistiche!<br>
