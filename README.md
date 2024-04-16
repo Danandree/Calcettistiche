@@ -7,19 +7,30 @@ L'appliczione tiene traccia delle partite fatte da ciascun giocatore, quante ne 
 <br>
 Pronto a perdere le vecchie amicizie in campo?
 
+## Divisione
+L'applicazione é composta da due repository diversi, uno per la parte backend ed uno per la parte frontend, che possono essere installati ed eseguiti anche singolarmente.<br>
+La parte backend é un'appliczione API RESTful in node.js con il supporto di un database MongoDB.<br>
+La parte frontend é un'appilcazione in Angular appositamente configurata per le richieste alla parte backend.<br>
+
 ## Installazione
-L'applicazione è divisa in due moduli, backend e frontend, rispettivamente per l'applicazione lato server e lato client.<br>
-Il lato backend è in node.js con il supporto di un database MongoDB, mentre il lato frontend é in Angular.<br>
-Ciò presuppone che per provare l'applicazione sul vostro sistema abbiate installati:
+Per eseguire l'applicazione sul sistema devono essere presenti:
 - Node.js (e relativo package manager npm)<br>
 - MongoDB<br>
 - Angular CLI<br>
 
-Dopo aver scaricato il respository installare le dipendenze con "npm install" sia per la cartella frontend che per quella backend.<br>
-Nella cartella "frontend/src/environments" ci sono i file per modificare l'url a cui fa riferimento l'applciazione; nel caso non venissero modificati il parametro predefinito é:
+Scaricare l'applicazione e installare le dipendenze con "npm install" sia per la cartella frontend che per quella backend.<br>
+Dopo aver scaricato le dipendenze e configurato l'applicazione (vedi sotto) portarsi nelle ripettive cartelle e far partire le singole parti dell'applicazione.<br>
+Backend: lanicare il file "server.js"<br>
+Frontend: portarsi nella cartella forntend e lanciare l'applicazione col comando "ng serve".<br>
+
+## Configurazione
+Per configurare i parametri dell'applicazione si interviene su dei file specifici per le due parti.<br>
+Per la parte <strong>frontend<strong> i file di configurazione si trovano nella cartella "src/environments".<br>
+In questo file c'è il valore di riferimento all'Url della parte backend, nel caso il parametro non venisse modificato il valore predefinito é:
  - serverUrl: localhost:3000
 
-Nella cartella "backend" creare un file ".env" nel quale mettere le impostazioni per l'applicazione. Nel caso mancasse il file questi sono i parametri di default presi dall'app:
+Per la parte <strong>backend<strong> si deve creare un file ".env" nel quale inserire i parametri dell'applicazione.<br>
+I parametri da cambiare sono qui elencati insieme al parametro di default in caso mancasse totalmente o parzialmente il file ".env":
  - ip server: localhost
  - CORS: localhost
  - porta server: 3000
@@ -29,8 +40,7 @@ Nella cartella "backend" creare un file ".env" nel quale mettere le impostazioni
 > [!NOTE]
 > Puoi rinominare il file ".env-example" in ".env" e modificare i valori per configurare l'applicazione.
    
-Dopo aver installato le dipendenze e creato il file ".env", eseguire il file "server.js" dalla cartella backend per far partire l'applicazione lato server.<br>
-Infine spostarsi nella cartella frontend ed eseguire il comando "ng serve" per far partire l'applicazione lato client.<br>
+
 
 ## Test
 L'applicazione si può provare al seguente indirizzo: [https://calcettistiche.web.app](https://calcettistiche.web.app) <br>
