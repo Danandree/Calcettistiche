@@ -31,11 +31,11 @@ In questo file c'è il valore di riferimento all'Url della parte backend, nel ca
 
 Per la parte <strong>backend<strong> si deve creare un file ".env" nel quale inserire i parametri dell'applicazione.<br>
 I parametri da cambiare sono qui elencati insieme al parametro di default in caso mancasse totalmente o parzialmente il file ".env":
- - ip server: localhost
- - CORS: localhost
- - porta server: 3000
+ - IP_ADDRESS: localhost
+ - CORS_ALLOWED_IP: localhost
+ - PORT: 3000
  - DB_URI: mongodb://localhost:12017
- - Jwt-Token: "TheSuperSecretJWTToken"
+ - JWT_TOKEN_SECRET: "TheSuperSecretJWTToken"
 
 > [!NOTE]
 > Puoi rinominare il file ".env-example" in ".env" e modificare i valori per configurare l'applicazione.
