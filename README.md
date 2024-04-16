@@ -11,6 +11,8 @@ Pronto a perdere le vecchie amicizie in campo?
 L'applicazione é composta da due repository diversi, uno per la parte backend ed uno per la parte frontend, che possono essere installati ed eseguiti anche singolarmente.<br>
 La parte backend é un'applicazione API RESTful in node.js con il supporto di un database MongoDB.<br>
 La parte frontend é un'applicazione in Angular appositamente configurata per le richieste alla parte backend.<br>
+>[!IMPORTANT]
+>Quando si clona il repository ricordarsi di aggiungere l'opzione "--recurse-submodule" per scaricare anche i repository figli
 
 ## Installazione
 Per eseguire l'applicazione sul sistema devono essere presenti:
@@ -19,8 +21,6 @@ Per eseguire l'applicazione sul sistema devono essere presenti:
 - Angular CLI<br>
 
 Scaricare l'applicazione e installare le dipendenze con "npm install" sia per la cartella frontend che per quella backend.<br>
->[!IMPORTANT]
->Quando si clona il repository ricordarsi di aggiungere l'opzione "--recurse-submodule" per scaricare anche i repository figli
 
 Dopo aver scaricato le dipendenze e configurato l'applicazione (vedi sotto) portarsi nelle ripettive cartelle e far partire le singole parti dell'applicazione.<br>
 Backend: lanciare il file "server.js"<br>
@@ -40,7 +40,7 @@ I parametri da cambiare sono qui elencati insieme al parametro di default in cas
  - DB_URI: mongodb://localhost:12017
  - JWT_TOKEN_SECRET: "TheSuperSecretJWTToken"
 
-> [!NOTE]
+> [!TIP]
 > Puoi rinominare il file ".env-example" in ".env" e modificare i valori per configurare l'applicazione.
    
 
