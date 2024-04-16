@@ -35,7 +35,7 @@ I parametri da cambiare sono qui elencati insieme al parametro di default in cas
  - CORS: localhost
  - porta server: 3000
  - DB_URI: mongodb://localhost:12017
- - Jwt-Token: "SuperSecretJWTToken"
+ - Jwt-Token: "TheSuperSecretJWTToken"
 
 > [!NOTE]
 > Puoi rinominare il file ".env-example" in ".env" e modificare i valori per configurare l'applicazione.
