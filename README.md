@@ -9,7 +9,7 @@ Pronto a perdere le vecchie amicizie in campo?
 
 ## Divisione
 L'applicazione é composta da due repository diversi, uno per la parte backend ed uno per la parte frontend, che possono essere installati ed eseguiti anche singolarmente.<br>
-La parte backend é un'appliczione API RESTful in node.js con il supporto di un database MongoDB.<br>
+La parte backend é un'applicazione API RESTful in node.js con il supporto di un database MongoDB.<br>
 La parte frontend é un'applicazione in Angular appositamente configurata per le richieste alla parte backend.<br>
 
 ## Installazione
