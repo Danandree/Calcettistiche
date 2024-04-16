@@ -47,5 +47,5 @@ L'applicazione si può provare al seguente indirizzo: [https://calcettistiche.we
 Le richieste al backend si possono fare all'indirizzo: [https://calcettistiche.oa.r.appspot.com](https://calcettistiche.oa.r.appspot.com) <br>
 
 ### Note
-Note più dettagliate all'interno delle rispettive cartelle
+Note più dettagliate all'interno dei rispettivi repository.<br>
 
